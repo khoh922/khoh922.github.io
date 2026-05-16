@@ -61,4 +61,87 @@ section {
 h2 {
     font-size: 2rem;
     border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.pub {
+    margin-bottom: 30px;
+    padding-left: 18px;
+    border-left: 4px solid #1f2937;
+}
+
+.pub-note {
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.publication-item.featured {
+    border-left: 5px solid #0f4c81;
+}
+
+.pub-title {
+    font-size: 1.08rem;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 8px;
+}
+
+.pub-authors {
+    font-size: 0.96rem;
+    color: #374151;
+    margin-bottom: 8px;
+}
+
+.pub-meta {
+    font-size: 0.96rem;
+    color: #4b5563;
+}
+
+.status {
+    display: inline-block;
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: #0f4c81;
+    background: #eef6ff;
+    border: 1px solid #d7e9ff;
+    border-radius: 999px;
+    padding: 2px 9px;
+}
+
+.me {
+    font-weight: bold;
+    color: #0f4c81;
+}
+
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    background: #111827;
+    color: white;
+    margin-top: 60px;
+}
+
+@media (max-width: 700px) {
+    .hero h1 {
+        font-size: 2.4rem;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    .profile-photo {
+        width: 140px;
+        height: 140px;
+    }
 }
