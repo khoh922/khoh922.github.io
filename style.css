@@ -76,6 +76,22 @@ h2 {
     color: #555;
 }
 
+.scholar-link {
+    margin-top: -10px;
+    margin-bottom: 25px;
+    font-size: 1rem;
+}
+
+.scholar-link a {
+    font-weight: 600;
+    color: #0f4c81;
+    text-decoration: none;
+}
+
+.scholar-link a:hover {
+    text-decoration: underline;
+}
+
 .publication-item.featured {
     border-left: 5px solid #0f4c81;
 }
