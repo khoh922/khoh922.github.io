@@ -1,3 +1,6 @@
+# index.html
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,11 +13,18 @@
 
 <header class="hero">
     <div class="overlay">
+
+        <!-- Replace photo.jpg with your actual image filename -->
+        <img src="photo.jpg" class="profile-photo">
+
         <h1>Kyoung Hun Oh</h1>
-        <p>Moore Foundation Postdoctoral Fellow · UC Berkeley</p>
-        <p>Ultrafast Quantum Materials · Charge Density Waves · Time-Resolved Diffraction</p>
+
+        <p class="subtitle">
+            Moore Foundation Postdoctoral Fellow · UC Berkeley
+        </p>
 
         <nav>
+            <a href="#about">About</a>
             <a href="#research">Research</a>
             <a href="#publications">Publications</a>
             <a href="#awards">Awards</a>
@@ -26,15 +36,16 @@
 
 <section id="about">
     <h2>About</h2>
+
     <p>
-        I am a Moore Foundation Postdoctoral Fellow in Physical Chemistry at UC Berkeley,
-        working with Prof. Michael Zuerch. I completed my PhD in Physics at MIT under
-        Prof. Nuh Gedik.
+        I am a Moore Foundation Postdoctoral Fellow in Physical Chemistry at the
+        University of California, Berkeley, working with Prof. Michael Zuerch.
+        I completed my PhD in Physics at MIT under the supervision of Prof. Nuh Gedik.
     </p>
 
     <p>
-        My research focuses on ultrafast dynamics in quantum materials, including
-        charge density waves, superconductors, and nonequilibrium phases of matter,
+        My research focuses on ultrafast dynamics in quantum materials,
+        including charge density waves, superconductors, and nonequilibrium phases,
         using time-resolved diffraction and spectroscopy techniques.
     </p>
 </section>
@@ -55,35 +66,47 @@
     <h2>Selected Publications</h2>
 
     <div class="pub">
-        <strong>Bidirectional ultrafast optical control of charge density waves via phase competition</strong><br>
-        <em>Physical Review Letters</em> (Editor's Suggestion & Cover), 2025
+        <strong>H. Ning*, <span class="me">K. H. Oh*</span>, Y. Su*, Z. D. Shi, D. Wu, Q. Liu, B. Q. Lv, A. Zong, G. Kang, H. Choi, H.-W. J. Kim, S. Ha, J. Kim, S. Sarker, J. P. C. Ruff, B. J. Kim, N. L. Wang, T. Senthil, H. Jang, and N. Gedik</strong><br>
+        Bidirectional ultrafast optical control of charge density waves via phase competition.<br>
+        <em>Physical Review Letters</em> 135, 246504 (2025).
     </div>
 
     <div class="pub">
-        <strong>Dynamical decoding of competing charge density waves in a kagome superconductor</strong><br>
-        <em>Nature Communications</em>, 2024
+        <strong>H. Ning*, <span class="me">K. H. Oh*</span>, Y. Su*, A. von Hoegen, Z. Porter, A. Capa Salinas, Q. Nguyen, M. Chollet, T. Sato, V. Espacito, M. C. Hoffmann, A. J. White, C. Melendrez, D. Zhu, S. D. Wilson, and N. Gedik</strong><br>
+        Dynamical decoding of competing charge density waves in a kagome superconductor.<br>
+        <em>Nature Communications</em> 15, 7286 (2024).
     </div>
 
     <div class="pub">
-        <strong>Joint commensuration in moiré charge orders leads to shear topological defects</strong><br>
-        under review at <em>Nature Communications</em>
+        <strong><span class="me">K. H. Oh</span>, Z. Shen, H. Ning, Y. Su, C. Won, G. Park, B. Lee, H. Choi, Y. Wang, H. Jang, and N. Gedik</strong><br>
+        Metastable light-induced crystallization of three-dimensional charge order.<br>
+        In preparation.
     </div>
 
     <div class="pub">
-        <strong>Sublattice-resolved coherent phonon dynamics in charge density waves</strong><br>
-        under review at <em>Physical Review Letters</em>
+        <strong><span class="me">K. H. Oh</span>, H. Ning, Z. Shen, Y. Su, J. Maier, D. Wu, Q. Liu, H.-W. J. Kim, S.-H. Ha, J. Kim, G. Park, H. Choi, B. Lee, N. L. Wang, B. J. Kim, Y. Wang, H. Jang, and N. Gedik</strong><br>
+        Sublattice-resolved coherent phonon dynamics in charge density waves.<br>
+        Under review at <em>Physical Review Letters</em>.
+    </div>
+
+    <div class="pub">
+        <strong><span class="me">K. H. Oh</span>, Y. Su, H. Ning, B. Q. Lv, A. Zong, D. Wu, Q. Liu, G. Park, H. Choi, H.-W. J. Kim, S.-H. Ha, J. Kim, S. Sarker, J. P. C. Ruff, X. Shen, D. Luo, S. Weathersby, P. Kramer, X. Cheng, D. Choi, D. Azoury, M. Mogi, B. J. Kim, N. L. Wang, H. Jang, and N. Gedik</strong><br>
+        Joint commensuration in moiré charge orders leads to shear topological defects.<br>
+        Under review at <em>Nature Communications</em>.
     </div>
 </section>
 
 <section id="awards">
-    <h2>Awards & Fellowships</h2>
+    <h2>Awards & Honors</h2>
 
     <ul>
-        <li>Moore Foundation Postdoctoral Fellowship</li>
-        <li>MIT Physics Departmental Fellowship</li>
-        <li>Kwanjeong Educational Foundation Scholarship</li>
-        <li>Best Poster Award, SCES 2023</li>
-        <li>Talent Award of Korea</li>
+        <li>2023 — Best Poster Award, SCES</li>
+        <li>2022–2026 — Kwanjeong Educational Foundation Scholarship</li>
+        <li>2020 — MIT Physics Departmental Fellowship</li>
+        <li>2017 — Talent Award of Korea</li>
+        <li>2015–2017 — KFAS Undergraduate Scholarship</li>
+        <li>2014–2016 — SK Hynix Scholarship</li>
+        <li>2013–2015 — Presidential Science Scholarship</li>
     </ul>
 </section>
 
@@ -91,11 +114,12 @@
     <h2>Selected Talks</h2>
 
     <ul>
-        <li>APS March Meeting 2025 — Anaheim, CA</li>
-        <li>UT Austin — 2026</li>
-        <li>Seoul National University — 2025</li>
-        <li>KAIST — 2025</li>
-        <li>POSTECH — 2024</li>
+        <li>APS March Meeting — Anaheim, CA (2025)</li>
+        <li>UT Austin — Austin, TX (2026)</li>
+        <li>Seoul National University — Seoul, Korea (2025)</li>
+        <li>KAIST — Daejeon, Korea (2025)</li>
+        <li>Northeastern University — Burlington, MA (2024)</li>
+        <li>POSTECH — Pohang, Korea (2024)</li>
     </ul>
 </section>
 
@@ -118,3 +142,146 @@
 
 </body>
 </html>
+```
+
+---
+
+# style.css
+
+```css
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f7fa;
+    color: #222;
+    line-height: 1.7;
+}
+
+.hero {
+    background: linear-gradient(135deg, #111827, #1f2937);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.overlay {
+    max-width: 900px;
+    margin: auto;
+}
+
+.profile-photo {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+    margin-bottom: 25px;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    opacity: 0.95;
+}
+
+nav {
+    margin-top: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    max-width: 900px;
+    margin: auto;
+    padding: 60px 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.pub {
+    margin-bottom: 30px;
+    padding-left: 18px;
+    border-left: 4px solid #1f2937;
+}
+
+.me {
+    font-weight: bold;
+    color: #0f4c81;
+}
+
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    background: #111827;
+    color: white;
+    margin-top: 60px;
+}
+
+@media (max-width: 700px) {
+    .hero h1 {
+        font-size: 2.4rem;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    .profile-photo {
+        width: 140px;
+        height: 140px;
+    }
+}
+```
+
+---
+
+# How to upload your photo
+
+1. Upload your image file into the repository.
+2. Name it:
+
+```text
+photo.jpg
+```
+
+3. If your file has a different name (example: `myphoto.png`), then change:
+
+```html
+<img src="photo.jpg" class="profile-photo">
+```
+
+to:
+
+```html
+<img src="myphoto.png" class="profile-photo">
+```
+
+4. Commit changes.
+5. Wait ~1 minute and refresh your website.
