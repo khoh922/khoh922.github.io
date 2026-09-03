@@ -8,28 +8,22 @@
 </head>
 <body>
 
-<header class="hero">
-    <div class="overlay">
-
-        <!-- Replace photo.jpg with your actual image filename -->
-        <img src="photo.jpg" class="profile-photo">
-
-        <h1>Kyoung Hun Oh</h1>
-
-        <p class="subtitle">
-            Gordon and Betty Moore Foundation Postdoctoral Fellow · UC Berkeley
-        </p>
-
-        <nav>
-            <a href="#about">About</a>
-            <a href="#research">Research</a>
-            <a href="#publications">Publications</a>
-            <a href="#awards">Awards</a>
-            <a href="#talks">Talks</a>
-            <a href="#contact">Contact</a>
-        </nav>
+<div class="page-container">
+<aside class="sidebar">
+    <img src="photo.jpg" alt="Portrait of Kyoung Hun Oh" class="profile-photo">
+    <h1>Kyoung Hun Oh</h1>
+    <p class="position">Gordon and Betty Moore Foundation Postdoctoral Fellow, UC Berkeley</p>
+    <div class="sidebar-links">
+        <a href="mailto:khoh@berkeley.edu">Email</a>
+        <a href="https://scholar.google.com/citations?user=mZ0O2S4AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
     </div>
-</header>
+    <nav class="sidebar-nav" aria-label="Main navigation">
+        <a href="#about">About</a><a href="#bio">Brief CV</a><a href="#research">Research</a>
+        <a href="#publications">Publications</a><a href="#awards">Awards &amp; Honors</a>
+        <a href="#talks">Presentations</a><a href="#contact">Contact</a>
+    </nav>
+</aside>
+<main class="main-content">
 
 <section id="about">
     <h2>About</h2>
@@ -39,7 +33,7 @@
     </p>
 
     <p>
-	Before joining MIT, I served as a commissioned officer in the Republic of Korea Air Force during my mandatory military service (2017–2020), conducting research at the Agency for Defense Development. During my undergraduate studies at POSTECH, I worked in Prof. K. S. Kim’s group (now at Yonsei University), where I investigated oxygen-induced degradation of black phosphorus using synchrotron photoemission spectroscopy (2015–2017). In Fall 2015, I also joined Prof. Andreas Wallraff’s quantum device group at ETH Zurich as an exchange student researcher.
+	Before joining MIT, I served as a commissioned officer in the Republic of Korea Air Force during my mandatory military service (2017–2020), conducting research at the Agency for Defense Development. During my undergraduate studies at POSTECH, I conducted synchrotron photoemission spectroscopy research in Prof. K. S. Kim’s group (2015–2017). In 2015, I was an exchange student in the Department of Physics at ETH Zurich, Switzerland.
     </p>
 
     <p>
@@ -75,6 +69,14 @@
                 <div class="cv-title">Researcher (Mandatory Military Service)</div>
                 <div class="cv-place">Agency for Defense Development (ADD) · Daejeon, Korea</div>
                 <div class="cv-extra">Republic of Korea Air Force (ROKAF)</div>
+            </div>
+        </div>
+
+        <div class="cv-item">
+            <div class="cv-year">2015</div>
+            <div class="cv-content">
+                <div class="cv-title">Exchange Student</div>
+                <div class="cv-place">Department of Physics, Swiss Federal Institute of Technology Zurich (ETHZ) · Zurich, Switzerland</div>
             </div>
         </div>
 
@@ -122,50 +124,58 @@
 
     <h3 class="pub-category">First-authored papers</h3>
 
-    <ol class="publication-list">
+    <ol class="publication-list first-author-list">
         <li class="publication-item">
+            <img class="pub-figure" src="images/publication-01.jpg" alt="Figure for Sublattice-resolved coherent phonon dynamics in charge density waves" loading="lazy">
             <div class="pub-title">Sublattice-resolved coherent phonon dynamics in charge density waves</div>
             <div class="pub-authors"><span class="me">K. H. Oh*</span>, H. Ning*, Z. Shen*, Y. Su*, J. Maier, D. Wu, Q. Liu, H.-W. J. Kim, S.-H. Ha, J. Kim, G. Park, H. Choi, B. Lee, N. L. Wang, B. J. Kim, Y. Wang, H. Jang, and N. Gedik†</div>
             <div class="pub-meta"><span class="status">Under review</span> · <em>Nano Letters</em> · <a href="https://arxiv.org/abs/2608.06456" target="_blank">arXiv:2608.06456</a></div>
         </li>
 
         <li class="publication-item">
+            <img class="pub-figure" src="images/publication-02.jpg" alt="Figure for Dynamics of a jointly commensurate moiré charge density wave" loading="lazy">
             <div class="pub-title">Dynamics of a jointly commensurate moiré charge density wave</div>
             <div class="pub-authors"><span class="me">K. H. Oh*</span>, Y. Su*†, H. Ning*, B. Q. Lv, A. Zong, D. Wu, Q. Liu, G. Park, H. Choi, H.-W. J. Kim, S.-H. Ha, J. Kim, S. Sarker, J. P. C. Ruff, X. Shen, D. Luo, S. Weathersby, P. Kramer, X. Cheng, D. Choi, D. Azoury, M. Mogi, B. J. Kim, N. L. Wang, H. Jang, and N. Gedik†</div>
             <div class="pub-meta"><span class="status">In press</span> · <em>Nature Communications</em> · <a href="https://arxiv.org/abs/2509.16493" target="_blank">arXiv:2509.16493</a></div>
         </li>
 
         <li class="publication-item">
+            <img class="pub-figure" src="images/publication-03.jpg" alt="Figure for Bidirectional ultrafast optical control of charge density waves via phase competition" loading="lazy">
             <div class="pub-title">Bidirectional ultrafast optical control of charge density waves via phase competition</div>
             <div class="pub-authors">H. Ning*, <span class="me">K. H. Oh*</span>, Y. Su*, Z. D. Shi, D. Wu, Q. Liu, B. Q. Lv, A. Zong, G. Kang, H. Choi, H.-W. J. Kim, S. Ha, J. Kim, S. Sarker, J. P. C. Ruff, B. J. Kim, N. L. Wang, T. Senthil, H. Jang, and N. Gedik†</div>
             <div class="pub-meta"><a href="https://link.aps.org/doi/10.1103/b1vl-qlkk" target="_blank" rel="noopener noreferrer"><em>Physical Review Letters</em> <strong>135</strong>, 246504 (2025)</a> · Editor’s Suggestion & Cover</div>
         </li>
 
         <li class="publication-item">
+            <img class="pub-figure" src="images/publication-04.jpg" alt="Figure for Dynamical decoding of competing charge density waves in a kagome superconductor" loading="lazy">
             <div class="pub-title">Dynamical decoding of competing charge density waves in a kagome superconductor</div>
             <div class="pub-authors">H. Ning*, <span class="me">K. H. Oh*</span>, Y. Su*, A. von Hoegen, Z. Porter, A. Capa Salinas, Q. Nguyen, M. Chollet, T. Sato, V. Espacito, M. C. Hoffmann, A. J. White, C. Melendrez, D. Zhu, S. D. Wilson, and N. Gedik†</div>
             <div class="pub-meta"><a href="https://www.nature.com/articles/s41467-024-51485-5" target="_blank" rel="noopener noreferrer"><em>Nature Communications</em> <strong>15</strong>, 7286 (2024)</a></div>
         </li>
 
         <li class="publication-item">
+            <img class="pub-figure" src="images/publication-05.jpg" alt="Figure for High-pressure elasticity of Baltic amber studied by Brillouin spectroscopy" loading="lazy">
             <div class="pub-title">High-pressure elasticity of Baltic amber studied by Brillouin spectroscopy</div>
             <div class="pub-authors"><span class="me">K. H. Oh</span>, Y.-H. Ko, S. Kojima, and J.-H. Ko†</div>
             <div class="pub-meta"><a href="https://link.springer.com/article/10.3938/jkps.77.773" target="_blank" rel="noopener noreferrer"><em>Journal of Korean Physical Society</em> <strong>77</strong>, 773 (2020)</a></div>
         </li>
 
         <li class="publication-item">
+            <img class="pub-figure" src="images/publication-06.jpg" alt="Figure for Tracing the initial state of surface oxidation in black phosphorus" loading="lazy">
             <div class="pub-title">Tracing the initial state of surface oxidation in black phosphorus</div>
             <div class="pub-authors"><span class="me">K. H. Oh</span>, S. W. Jung, and K. S. Kim†</div>
             <div class="pub-meta"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0169433219331575" target="_blank" rel="noopener noreferrer"><em>Applied Surface Science</em> <strong>504</strong>, 144341 (2020)</a></div>
         </li>
 
         <li class="publication-item">
+            <img class="pub-figure" src="images/publication-07.jpg" alt="Figure for Mechanical properties of amorphous PEI, PES, and PVC" loading="lazy">
             <div class="pub-title">Mechanical properties of amorphous PEI, PES, and PVC up to 11 GPa studied by Brillouin light scattering</div>
             <div class="pub-authors"><span class="me">K. H. Oh</span>, Y.-H. Ko†, and K.-J. Kim</div>
             <div class="pub-meta"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0921452619306271" target="_blank" rel="noopener noreferrer"><em>Physica B: Condensed Matter</em> <strong>576</strong>, 411722 (2020)</a></div>
         </li>
 
         <li class="publication-item">
+            <img class="pub-figure" src="images/publication-08.jpg" alt="Figure for Investigation of polymorphic potassium niobate nanowires by pressure" loading="lazy">
             <div class="pub-title">Investigation of the crystal structure of polymorphic KNbO<sub>3</sub> nanowires by pressure</div>
             <div class="pub-authors"><span class="me">K. H. Oh</span>, Y.-H. Ko†, and K.-J. Kim</div>
             <div class="pub-meta"><a href="https://pubs.aip.org/aip/adv/article/9/4/045207/1076466" target="_blank" rel="noopener noreferrer"><em>AIP Advances</em> <strong>9</strong>, 045207 (2019)</a></div>
@@ -195,36 +205,109 @@
     </ol>
 </section>
 
-<section id="awards">
+<section id="awards" class="awards-section">
     <h2>Awards & Honors</h2>
 
-    <ul class="talk-list">
+<div class="awards-list">
 
-	<li><strong>2026-2029</strong> — Gordon and Betty Moore Foundation Postdoctoral Fellowship, UC Berkeley (full financial support for 2.5 years).</li>
+    <div class="award-item featured">
+        <div class="award-year">2026–2029</div>
+        <div class="award-content">
+            <div class="award-title">Gordon and Betty Moore Foundation Postdoctoral Fellowship</div>
+            <div class="award-meta">UC Berkeley · Full financial support for 2.5 years</div>
+        </div>
+    </div>
 
-        <li><strong>2023</strong> — Best Poster Award, International Conference on Strongly Correlated Electron Systems (SCES).</li>
+    <div class="award-item">
+        <div class="award-year">2023</div>
+        <div class="award-content">
+            <div class="award-title">Best Poster Award</div>
+            <div class="award-meta">International Conference on Strongly Correlated Electron Systems (SCES)</div>
+        </div>
+    </div>
 
-        <li><strong>2022–2026</strong> — Study Abroad Scholarship, Kwanjeong Educational Foundation.</li>
+    <div class="award-item">
+        <div class="award-year">2022–2026</div>
+        <div class="award-content">
+            <div class="award-title">Study Abroad Scholarship</div>
+            <div class="award-meta">Kwanjeong Educational Foundation</div>
+        </div>
+    </div>
 
-        <li><strong>2020</strong> — MIT Physics Departmental Fellowship, MIT (full financial support for 1 year).</li>
+    <div class="award-item">
+        <div class="award-year">2020</div>
+        <div class="award-content">
+            <div class="award-title">MIT Physics Departmental Fellowship</div>
+            <div class="award-meta">MIT · Full financial support for 1 year</div>
+        </div>
+    </div>
 
-        <li><strong>2020</strong> — Study Abroad Doctoral Fellowship, Ilju Academy and Culture Foundation (declined).</li>
+    <div class="award-item">
+        <div class="award-year">2020</div>
+        <div class="award-content">
+            <div class="award-title">Study Abroad Doctoral Fellowship</div>
+            <div class="award-meta">Ilju Academy and Culture Foundation · <span class="declined">Declined</span></div>
+        </div>
+    </div>
 
-        <li><strong>2020</strong> — Study Abroad Graduate Scholarship, SBS Foundation (declined).</li>
+    <div class="award-item">
+        <div class="award-year">2020</div>
+        <div class="award-content">
+            <div class="award-title">Study Abroad Graduate Scholarship</div>
+            <div class="award-meta">SBS Foundation · <span class="declined">Declined</span></div>
+        </div>
+    </div>
 
-        <li><strong>2017</strong> — Talent Award of Korea, Ministry of Education of the Republic of Korea.</li>
+    <div class="award-item">
+        <div class="award-year">2017</div>
+        <div class="award-content">
+            <div class="award-title">Talent Award of Korea</div>
+            <div class="award-meta">Ministry of Education, Republic of Korea</div>
+        </div>
+    </div>
 
-        <li><strong>2015–2017</strong> — KFAS Undergraduate Scholarship, Korea Foundation of Advanced Studies (KFAS).</li>
+    <div class="award-item">
+        <div class="award-year">2015–2017</div>
+        <div class="award-content">
+            <div class="award-title">KFAS Undergraduate Scholarship</div>
+            <div class="award-meta">Korea Foundation of Advanced Studies (KFAS)</div>
+        </div>
+    </div>
 
-        <li><strong>2015–2017</strong> — Research Officer of Science and Technology for National Defense Scholarship, Ministry of Science and ICT of the Republic of Korea (full financial support for 2 years).</li>
+    <div class="award-item">
+        <div class="award-year">2015–2017</div>
+        <div class="award-content">
+            <div class="award-title">Research Officer of Science and Technology for National Defense Scholarship</div>
+            <div class="award-meta">Ministry of Science and ICT, Republic of Korea · Full financial support for 2 years</div>
+        </div>
+    </div>
 
-        <li><strong>2014–2016</strong> — SK Hynix Scholarship</li>
+    <div class="award-item">
+        <div class="award-year">2014–2016</div>
+        <div class="award-content">
+            <div class="award-title">SK Hynix Scholarship</div>
+        </div>
+    </div>
 
-        <li><strong>2014</strong> — College Mathematics Competition (for non-mathematics major students), Silver Medal, Korean Mathematical Society.</li>
+    <div class="award-item">
+        <div class="award-year">2014</div>
+        <div class="award-content">
+            <div class="award-title">Silver Medal, College Mathematics Competition</div>
+            <div class="award-meta">Korean Mathematical Society · Non-mathematics major division</div>
+        </div>
+    </div>
 
-        <li><strong>2013–2015</strong> — Presidential Science Scholarship, Korea Student Aid Foundation (full financial support for 2 years).</li>
-    </ul>
+    <div class="award-item">
+        <div class="award-year">2013–2015</div>
+        <div class="award-content">
+            <div class="award-title">Presidential Science Scholarship</div>
+            <div class="award-meta">Korea Student Aid Foundation · Full financial support for 2 years</div>
+        </div>
+    </div>
+
+</div>
 </section>
+
 
 <section id="talks">
     <h2>Selected Presentations</h2>
@@ -270,6 +353,9 @@
     <p>Email: khoh@berkeley.edu</p>
 
 </section>
+
+</main>
+</div>
 
 <footer>
     <p>© 2026 Kyoung Hun Oh</p>
